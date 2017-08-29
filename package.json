@@ -19,7 +19,10 @@
   },
   "homepage": "https://github.com/robinfhu/personal-site#readme",
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
     "gulp-clean": "^0.3.2",
     "gulp-stylus": "^2.6.0",
     "http-server": "^0.10.0",
