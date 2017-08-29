@@ -1,3 +1,18 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+.layout-transparent {
+  background: #000;
+}
+.top-header {
+  background: rgba(0,0,0,0.5);
+}
+.cover-image {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}

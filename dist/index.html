@@ -9,6 +9,8 @@
 
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
         <!-- Place favicon.ico in the root directory -->
 
@@ -21,9 +23,47 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <h1>Robin Hu</h1>
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
+          <header class="top-header mdl-layout__header">
+            <div class="mdl-layout__header-row">
+              <!-- Title -->
+              <span class="mdl-layout-title">Robin Hu</span>
+              <!-- Add spacer, to align navigation to the right -->
+              <div class="mdl-layout-spacer"></div>
+              <!-- Navigation -->
+              <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">Resume</a>
+                <a class="mdl-navigation__link" href="">Projects</a>
+                <a class="mdl-navigation__link" href="">Photography</a>
+                <a class="mdl-navigation__link" href="">Juggling</a>
+              </nav>
+            </div>
+          </header>
+          <div class='cover-image mdl-typography--text-center'>
+          </div>
+
+          <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Robin Hu</span>
+            <nav class="mdl-navigation">
+              <a class="mdl-navigation__link" href="">Link</a>
+              <a class="mdl-navigation__link" href="">Link</a>
+              <a class="mdl-navigation__link" href="">Link</a>
+              <a class="mdl-navigation__link" href="">Link</a>
+            </nav>
+          </div>
+          <main class="mdl-layout__content">
+          </main>
+
+            <footer class="mdl-mini-footer">
+              <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo">&copy; Robin Hu</div>
+                <ul class="mdl-mini-footer__link-list">
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                </ul>
+              </div>
+            </footer>
+        </div>
 
     </body>
 </html>
