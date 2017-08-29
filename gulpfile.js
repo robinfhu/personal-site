@@ -1,20 +1,20 @@
 var gulp = require('gulp');
 var clean = require('gulp-clean');
+var stylus = require('gulp-stylus');
 
 var bases = {
     app: 'src/',
     dist: 'dist/',
-    vendors: 'dist/vendors/'
+    vendors: 'dist/vendors/',
+    css: 'dist/css/'
 };
 
 gulp.task('clean', function() {
-    return gulp.src(bases.dist).pipe(clean());
+    gulp.src(bases.css).pipe(clean());
+    return gulp.src(bases.vendors).pipe(clean());
 });
 
 gulp.task('copy', ['clean'], function() {
-    gulp.src(['index.html'], {cwd: bases.app})
-    .pipe(gulp.dest(bases.dist));
-
     gulp.src(
         ['material.js','material.css'],
         {cwd: 'node_modules/material-design-lite/dist'}
@@ -25,10 +25,15 @@ gulp.task('copy', ['clean'], function() {
         {cwd: 'node_modules/vue/dist'}
     ).pipe(gulp.dest(bases.vendors));
 
-    gulp.src(
+    gulp.src(['main.styl'], {cwd: bases.app})
+    .pipe(stylus())
+    .pipe(gulp.dest(bases.css));
+
+    return gulp.src(
         ['vue-router.js'],
         {cwd: 'node_modules/vue-router/dist'}
     ).pipe(gulp.dest(bases.vendors));
 ;})
+
 
 gulp.task('default', ['copy']);
