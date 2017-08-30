@@ -6,16 +6,11 @@ showPagination: false
 showSocial: false
 comments: false
 ---
-<p align='center'>
-    A software engineer specializing in web development.
+<h4 class='text-center'>
+    I am a software engineer specializing in web development.
     <br/>
     I make websites work.
-</p>
-
-## Education
-
-**Case Western Reserve University**
-| B.S. Computer Science
+</h4>
 
 ## Work Experience
 
@@ -33,7 +28,7 @@ Bloomberg LP
 
 ## Skills
 
-### Programming
+#### Programming
 
 * Javascript
 * HTML5
@@ -41,22 +36,45 @@ Bloomberg LP
 * C/C++
 * PHP
 * Perl
+* MySQL
 
-### Frameworks
+#### Frameworks
 
 * AngularJS
 * jQuery
 * d3.js
 * Vue.js
 * Backbone.js
-
-### Technologies
-
-* Git
-* MySQL
 * Node.js
 
-### Hobbies
+#### Tools
+
+* Git
+* Adobe Photoshop
+* Sublime Text
+* Atlassian JIRA and Stash
+* Slack
+* MacOS, Windows, Linux
+
+#### Hobbies
 
 * Juggling
 * Photography
+
+## Education
+
+**Case Western Reserve University**
+| B.S. Computer Science
+
+Computer programming has been my passion ever since I was a kid. I began programming on a TI-82 graphing calculator, and then started writing simple programs using FoxPro on my dad's computer.
+
+I took a Visual Basic course in high school, and that set the stage for the rest of my career.  I got accepted into Case Western Reserve University and majored in Computer Science. My coursework included the subjects:
+
+* Data structures and algorithms
+* Object oriented programming in Java and C++
+* Computer Architecture
+* Project Management
+* Video game design
+
+I graduated with honors in 2009, and obtained my Bachelor's of Science. Shortly after, I was offered a job with **Bloomberg L.P.** in New York City.
+

@@ -51,56 +51,62 @@ canonifyurls = true
   weight = 0
   identifier = "home"
   name = "Home"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\" title='Home'></i>"
   url = "/"
 [[menu.main]]
   weight = 1
   identifier = "post"
   name = "Blog"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-file-text-o\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-file-text-o\" title='Blog'></i>"
   url = "/post"
 [[menu.main]]
   weight = 2
   identifier = "projects"
   name = "Projects"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-area-chart\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-area-chart\" title='Projects'></i>"
   url = "/categories/projects"
 [[menu.main]]
   weight = 3
   identifier = "photography"
   name = "Photography"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-camera\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-camera\", title='Photography'></i>"
   url = "/photography"
 [[menu.main]]
   weight = 4
   identifier = "resume"
   name = "Resume"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-user\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-user\", title='Resume'></i>"
   url = "/resume"
 
 [[menu.links]]
-  weight = 10
+  weight = 1
   identifier = "github"
   name = "GitHub"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\" title='Github'></i>"
   url = "https://github.com/robinfhu"
 [[menu.links]]
-  weight = 0
+  weight = 2
   identifier = "instagram"
   name = "Instagram"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-instagram\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-instagram\" title='Instagram'></i>"
   url = "https://instagram.com/robinfhu"
 [[menu.links]]
-  weight = 0
+  weight = 3
   identifier = "flickr"
   name = "Flickr"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-flickr\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-flickr\", title='Flickr'></i>"
   url = "https://www.flickr.com/photos/robinfhu"
 [[menu.links]]
-  weight = 0
+  weight = 4
+  identifier = "facebook"
+  name = "Facebook"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-facebook\", title='Facebook'></i>"
+  url = "https://www.facebook.com/robinfhu"
+[[menu.links]]
+  weight = 10
   identifier = "linkedin"
   name = "Linkedin"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\" title='LinkedIn'></i>"
   url = "https://www.linkedin.com/in/robin-hu-5126923b"
 
 [params]
