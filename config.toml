@@ -64,12 +64,12 @@ canonifyurls = true
   identifier = "projects"
   name = "Projects"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-area-chart\"></i>"
-  url = "/projects"
+  url = "/categories/projects"
 [[menu.main]]
   weight = 3
   identifier = "photography"
   name = "Photography"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-area-chart\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-camera\"></i>"
   url = "/photography"
 [[menu.main]]
   weight = 4
