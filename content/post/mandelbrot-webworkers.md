@@ -1,5 +1,5 @@
 ---
-title: "Mandelbrot Set Explorer"
+title: "Mandelbrot Set Explorer: With Web Workers"
 date: 2017-08-30T19:33:06-04:00
 categories:
 - projects
@@ -8,6 +8,7 @@ tags:
 - webworker
 - mandelbrot
 thumbnailImage: /projects/mandelbrot/mandelbrot.png
+slug: mandelbrot-set
 ---
 
 I built a Mandelbrot Set Explorer using Javascript Web Workers and HTML5 Canvas.  It's one of my favorite software projects!

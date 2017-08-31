@@ -7,6 +7,7 @@ tags:
 - frontend
 - javascript
 - html
+slug: 'learning-hugo'
 #thumbnailImage: //example.com/image.jpg
 ---
 

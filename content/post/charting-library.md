@@ -8,6 +8,7 @@ tags:
 - javascript
 - charting
 thumbnailImage: /projects/charting/forestd3.png
+slug: charting-library
 ---
 
 I built my own charting library using D3.js.  This is an extension from my experience working on NVD3 at Novus Partners!
