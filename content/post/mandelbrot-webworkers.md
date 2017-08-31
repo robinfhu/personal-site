@@ -22,6 +22,9 @@ Drag your mouse over the canvas to zoom in.
 </div>
 <script src="/projects/mandelbrot/app.js"></script>
 
+[Source Code](https://github.com/robinfhu/personal-site/tree/master/static/projects/mandelbrot)
+
+
 ## Background
 
 The Mandelbrot Set Explorer is one of my favorite software projects to build.  I've built it in Visual Basic, Java, Processing.js, and Assembly.  It's my go to project when I want to learn a new language.

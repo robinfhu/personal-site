@@ -56,11 +56,6 @@ Bloomberg LP
 * Slack
 * MacOS, Windows, Linux
 
-#### Hobbies
-
-* Juggling
-* Photography
-
 ## Education
 
 **Case Western Reserve University**
@@ -78,3 +73,18 @@ I took a Visual Basic course in high school, and that set the stage for the rest
 
 I graduated with honors in 2009, and obtained my Bachelor's of Science. Shortly after, I was offered a job with **Bloomberg L.P.** in New York City.
 
+## Hobbies
+
+### Juggling
+
+I stumbled across a juggling club during my first few weeks at CWRU.  I picked up three ball juggling very quickly, and then learned about this prop called **diabolo**.  I fell in love with the prop and still practice it to this day.  I can now run a 3 diabolo shuffle, and juggle up to five balls.
+
+I have performed my diabolo routine at:
+
+* Juggling Festivals: Rochester, NYC and Philadelphia
+* Universities: CWRU and Binghamton University
+* Parks: Bryant Park, Central Park in NYC.
+
+### Photography
+
+I learned how to use a DSLR a few years back, and have since fallen in love with photography.  I like hiking and photographing the scenery.  Check out my albums on Instagram and Flickr!
