@@ -19,7 +19,7 @@ title = "Robin Hu"
 defaultContentLanguage = "en-us"
 theme = "tranquilpeak"
 disqusShortname = "hugo-tranquilpeak-theme"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-105698075-1"
 paginate = 7
 canonifyurls = true
 
@@ -166,7 +166,7 @@ canonifyurls = true
   autoThumbnailImage = true
 
   # Your favicon path, default is "/favicon.png"
-  # favicon = "/favicon.png"
+  favicon = "/favicon.png"
 
   # Header configuration
   # The link at the right of the header is customizable
