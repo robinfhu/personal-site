@@ -1,4 +1,3 @@
-importScripts('/projects/mandelbrot/big.min.js');
 
 onmessage = function(e) {
     var coordinates = e.data.coordinates;
