@@ -16,6 +16,11 @@ I built a Mandelbrot Set Explorer using Javascript Web Workers and HTML5 Canvas.
 
 Drag your mouse over the canvas to zoom in.
 
+<div class='controls'>
+    Iterations: <input id='mandel-iterations' class="input--large" type='number' value='50' style='width:60px;'/>
+    <button id='mandel-apply' class='btn btn--default'>Apply</button>
+    <progress id='progress' value='0' max='100'>70 %</progress>
+</div>
 <div style='position:relative;'>
     <canvas id='mandelbrot' width='500' height='500' style='border:solid 1px #ccc;'></canvas>
     <div id='zoom-rect' style='position:absolute;pointer-events:none;border:solid 1px white; background:rgba(255,255,255,0.5);'></div>
@@ -37,7 +42,10 @@ I initially wanted to use the [Big.js](https://github.com/MikeMcl/big.js/) high 
 
 I coded this entire app in about 2 hours.  My biggest struggle with Mandelbrot is figuring out the coordinate system.  I always have to figure out the algebra necessary to convert pixel coordinates to mathematical coordinates.  I will confuse `xMin` and `yMax`, and flip the axis wrong.  It requires so much mental energy to code the zooming logic.
 
-The Web Worker API was dead simple to use.  The `onmessage` and `postMessage` commands work exactly as described.  I am impressed, and will try to find more usages for web workers in future projects.
+The Web Worker API was dead simple to use.  The `onmessage` and `postMessage` commands work exactly as described.
+I made a simple progress bar by using the HTML5 `<progress>` tag, and posting a special message at regular intervals from the main worker loop.
+
+I am impressed, and will try to find more usages for web workers in future projects.
 
 Using the **Hugo** static site generator made development a breeze.  The hot reloading feature allowed me to iterate quickly.
 

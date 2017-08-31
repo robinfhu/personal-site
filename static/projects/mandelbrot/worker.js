@@ -21,8 +21,16 @@ onmessage = function(e) {
 
     var result = new Array(numPoints);
 
+    var progressIntervals = 100;
     for(var i = 0; i < numPoints; i++) {
         var x = i % width, y = Math.floor(i / width);
+
+        if (i % progressIntervals === 0) {
+            postMessage({
+                type: 'progress',
+                progress: Math.floor((i / numPoints) * 100)
+            })
+        }
 
         var cReal = xFactor * x + xMin,
             cImg = yFactor * y + yMax;
@@ -51,11 +59,10 @@ onmessage = function(e) {
         else {
             result[i] = iterations;
         }
-
-
     }
 
     postMessage({
+        type: 'result',
         points: result,
         maxIterations: MAX_ITERS
     });

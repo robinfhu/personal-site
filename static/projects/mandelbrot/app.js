@@ -86,15 +86,16 @@
         }
     };
 
-    var thread = new Worker('/projects/mandelbrot/worker.js');
+    function setProgress(progress) {
+        document.getElementById('progress').value = progress;
+    }
 
-    thread.onmessage = function(e) {
-
-        var points = e.data.points;
+    function processResult(data) {
+        var points = data.points;
         var w = canvas.width(), h = canvas.height();
 
         var scale = function(d) {
-            return (d / e.data.maxIterations) * 255;
+            return (d / data.maxIterations) * 255;
         };
         for(var i = 0; i < points.length; i++) {
             var x = i % w, y = Math.floor(i / h);
@@ -111,15 +112,33 @@
         canvas.update();
     }
 
+    var thread = new Worker('/projects/mandelbrot/worker.js');
+    thread.onmessage = function(e) {
+        if (e.data.type === 'result') {
+            processResult(e.data);
+        }
+        else if (e.data.type === 'progress') {
+            setProgress(e.data.progress);
+        }
+    };
+
     function updateMandel() {
+        var iterations = document.getElementById('mandel-iterations').value;
+        setProgress(0);
+
         thread.postMessage({
             coordinates: MandelCoordinates.serialize(),
             width: canvas.width(),
             height: canvas.height(),
-            iterations: 300,
+            iterations: iterations,
             part: -1
         });
     }
 
     updateMandel();
+
+    document.getElementById('mandel-apply').addEventListener('click', function() {
+        updateMandel();
+    });
+
 })(window.Worker);
