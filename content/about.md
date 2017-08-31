@@ -1,6 +1,7 @@
 ---
-title: "Resume"
+title: "Robin Who?"
 date: 2017-08-29
+coverImage: /images/resume-cover.jpg
 showTags: false
 showPagination: false
 showSocial: false
@@ -10,6 +11,10 @@ comments: false
     I am a software engineer specializing in web development.
     <br/>
     I make websites work.
+</h4>
+
+<h4 class='text-right'>
+    <a href='https://drive.google.com/file/d/0Bx7jWqaALYRXeXdidFVEdnRpMzQ/view?usp=sharing'>Download Resume</a>
 </h4>
 
 ## Work Experience
@@ -50,11 +55,17 @@ Bloomberg LP
 #### Tools
 
 * Git
+* Google Chrome Debugger
+* Grunt/Gulp
+* Karma, Test Driven Development
+* Babel, ES6
 * Adobe Photoshop
 * Sublime Text
 * Atlassian JIRA and Stash
 * Slack
 * MacOS, Windows, Linux
+* Bash, Shell Programming
+* Hugo Static Site Generator
 
 ## Education
 

@@ -8,7 +8,7 @@
       </div>
       <div class="image-gallery-photos {{ if gt $galleryLength 2 }}image-gallery-photos--thumbnail{{ end }}">
         {{ range $index, $element := .Params.gallery }}
-          {{ $image := (split $element " ") }}
+          {{ $image := (split $element "|") }}
           {{ $imageLength := len $image }}
           <div class="photo-box">
             <a class="photo-box-inner fancybox" data-fancybox-group="gallery-{{ $.UniqueID }}"
