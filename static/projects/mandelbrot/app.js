@@ -116,7 +116,7 @@
             coordinates: MandelCoordinates.serialize(),
             width: canvas.width(),
             height: canvas.height(),
-            iterations: 100,
+            iterations: 300,
             part: -1
         });
     }

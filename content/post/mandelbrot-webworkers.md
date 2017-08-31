@@ -7,7 +7,7 @@ tags:
 - javascript
 - webworker
 - mandelbrot
-#thumbnailImage: //example.com/image.jpg
+thumbnailImage: /projects/mandelbrot/mandelbrot.png
 ---
 
 I built a Mandelbrot Set Explorer using Javascript Web Workers and HTML5 Canvas.  It's one of my favorite software projects!
