@@ -28,6 +28,8 @@ I built my own charting library using D3.js.  This is an extension from my exper
 <script src="/projects/charting/app.js"></script>
 
 [Source Code](https://github.com/robinfhu/forest-d3)
+|
+[More Examples](http://charting.robinforest.net)
 
 ## Background
 
@@ -41,6 +43,7 @@ After gaining enough experience, I took a stab at making my own charting library
 * Ability to combine different chart types
 * Robust tooltip system
 * A good legend system
+* Ability to add line markers and sections to the chart
 * Ability for charts to communicate with each other
 
 It took a while to develop, but the result is fairly impressive.  You can see an example above.

@@ -6,6 +6,7 @@ categories:
 tags:
 - frontend
 - javascript
+- hugo
 - html
 slug: 'learning-hugo'
 #thumbnailImage: //example.com/image.jpg
