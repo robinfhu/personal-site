@@ -19,17 +19,33 @@ comments: false
 
 ## Work Experience
 
-April 2013 - Now
+<div class='experience-card'>
+    <h3 class='company'>Novus Partners</h3>
+    <div class='dates'>Apr 2013 - Today</div>
+    <div class='description'>
+        Front end software engineer.
+        <br/>
+        Developed the company's flagship reporting software.
+    </div>
+</div>
 
-Novus Partners
+<div class='experience-card'>
+    <h3 class='company'>Factset Research Systems</h3>
+    <div class='dates'>Dec 2011 - Mar 2013</div>
+    <div class='description'>
+        C++/Javascript developer
+    </div>
+</div>
 
-Dec 2011 - Mar 2013
+<div class='experience-card'>
+    <h3 class='company'>Bloomberg L.P.</h3>
+    <div class='dates'>Jul 2009 - Nov 2011</div>
+    <div class='description'>
+        C++ developer. <br/>
+        Built EPRX &lt;GO&gt; application in Bloomberg Terminal
+    </div>
+</div>
 
-Factset Research Systems
-
-July 2009 - Nov 2011
-
-Bloomberg LP
 
 ## Skills
 

@@ -8,6 +8,7 @@ tags:
 - javascript
 - charting
 thumbnailImage: /projects/charting/forestd3.png
+thumbnailImagePosition: left
 slug: charting-library
 ---
 

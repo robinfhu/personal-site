@@ -9,6 +9,7 @@ tags:
 - geocities
 slug: my-first-geocities-website
 thumbnailImage: images/first-website.png
+thumbnailImagePosition: left
 ---
 
 I just found the very first website I built using GeoCities.  Here's what I learned looking back on it.
