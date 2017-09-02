@@ -38,9 +38,10 @@
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}">
-          <i class="fa fa-facebook-official"></i>
-        </a>
+        <div class="fb-share-button"
+          data-href="{{ .Permalink }}"
+          data-layout="button_count">
+        </div>
       </li>
       <li class="post-action hide-xs">
         <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text={{ .Permalink }}">
