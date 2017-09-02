@@ -10,19 +10,10 @@
     {{ with .Site.Author.bio }}
       <div id="about-card-bio">{{ . | markdownify }}</div>
     {{ end }}
-    {{ with .Site.Author.job }}
-      <div id="about-card-job">
-        <i class="fa fa-briefcase"></i>
-        <br/>
-        {{ . | markdownify }}
-      </div>
-    {{ end }}
-    {{ with .Site.Author.location }}
-      <div id="about-card-location">
-        <i class="fa fa-map-marker"></i>
-        <br/>
-        {{ . }}
-      </div>
-    {{ end }}
+
+    <div class='contact'>
+      <span><i class='fa fa-envelope'></i></span>
+      <strong>{{ .Site.Author.email }}</strong>
+    </div>
   </div>
 </div>

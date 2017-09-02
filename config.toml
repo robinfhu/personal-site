@@ -33,9 +33,11 @@ canonifyurls = true
 
 [author]
   name = "Robin Hu"
-  bio = "Computer Programmer | Juggler"
+  bio = "I'm a computer programmer who loves to juggle! Feel free to ask me any questions."
   job = "Software Developer"
   location = "New York City"
+  email = "robinfhu@gmail.com"
+  github = "http://github.com/robinfhu"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   #gravatarEmail = "thibaud.lepretre@gmail.com"
   # Your profile picture
