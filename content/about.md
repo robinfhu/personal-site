@@ -19,69 +19,78 @@ comments: false
 
 ## Work Experience
 
-<div class='experience-card'>
-    <h3 class='company'>Novus Partners</h3>
-    <div class='dates'>Apr 2013 - Today</div>
-    <div class='description'>
+<div class='display-card experience-card'>
+    <h3 class='company'>Novus Partners <small class='dates'>Apr 2013 - Today</small></h3>
+
+    <h6 class='description'>
         Front end software engineer.
         <br/>
         Developed the company's flagship reporting software.
-    </div>
+    </h6>
 </div>
 
-<div class='experience-card'>
-    <h3 class='company'>Factset Research Systems</h3>
-    <div class='dates'>Dec 2011 - Mar 2013</div>
-    <div class='description'>
-        C++/Javascript developer
-    </div>
+<div class='display-card experience-card'>
+    <h3 class='company'>Factset <small class='dates'>Dec 2011 - Mar 2013</small></h3>
+    <h6 class='description'>
+        C++/Javascript developer<br/>
+        Private Equity/Venture Capital reports
+    </h6>
 </div>
 
-<div class='experience-card'>
-    <h3 class='company'>Bloomberg L.P.</h3>
-    <div class='dates'>Jul 2009 - Nov 2011</div>
-    <div class='description'>
+<div class='display-card experience-card'>
+    <h3 class='company'>Bloomberg L.P. <small class='dates'>Jul 2009 - Nov 2011</small></h3>
+
+    <h6 class='description'>
         C++ developer. <br/>
         Built EPRX &lt;GO&gt; application in Bloomberg Terminal
-    </div>
+    </h6>
 </div>
-
+<div class='clearfix'></div>
 
 ## Skills
 
-#### Programming
+<div class='display-card skills'>
+    <h3 class='skill-category'>Programming</h3>
+    <span class='tooltip--top' data-tooltip='My primary programming language.'>JavaScript</span>
+    <span>HTML5</span>
+    <span>CSS</span>
+    <span>C/C++</span>
+    <span>PHP</span>
+    <span>Perl</span>
+    <span>Python</span>
+    <span>Ruby</span>
+    <span>Scala</span>
+    <span>SQL</span>
+</div>
 
-* Javascript
-* HTML5
-* CSS
-* C/C++
-* PHP
-* Perl
-* MySQL
+<div class='display-card skills'>
+    <h3 class='skill-category'>Frameworks</h3>
+    <span class='tooltip--top' data-tooltip="Learned at Novus Partners.">AngularJS</span>
+    <span>jQuery</span>
+    <span>d3.js</span>
+    <span>Vue.js</span>
+    <span>Backbone.js</span>
+    <span>Node.js</span>
+    <span>Vanilla JavaScript</span>
+</div>
 
-#### Frameworks
+<div class='display-card skills'>
+    <h3 class='skill-category'>Tools</h3>
+    <span>Git</span>
+    <span>Google Chrome Debugger</span>
+    <span>Grunt/Gulp</span>
+    <span class='tooltip--top' data-tooltip="I am a believer in Test Driven Development">Karma</span>
+    <span class='tooltip--top' data-tooltip="Learning ES6 now.">Babel</span>
+    <span>Adobe Photoshop</span>
+    <span>Sublime Text</span>
+    <span>Atlassian JIRA and Stash</span>
+    <span>Slack</span>
+    <span>MacOS, Windows, Linux</span>
+    <span>Bash, Shell Programming</span>
+    <span>Nginx</span>
+    <span class='tooltip--top' data-tooltip="Tool I used to built this website">Hugo Static Site Generator</span>
+</div>
 
-* AngularJS
-* jQuery
-* d3.js
-* Vue.js
-* Backbone.js
-* Node.js
-
-#### Tools
-
-* Git
-* Google Chrome Debugger
-* Grunt/Gulp
-* Karma, Test Driven Development
-* Babel, ES6
-* Adobe Photoshop
-* Sublime Text
-* Atlassian JIRA and Stash
-* Slack
-* MacOS, Windows, Linux
-* Bash, Shell Programming
-* Hugo Static Site Generator
 
 ## Education
 
