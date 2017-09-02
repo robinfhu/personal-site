@@ -1,3 +1,8 @@
 .postShorten-thumbnailimg img {
     max-height: 400px;
 }
+
+.fb-share-button {
+    position: relative;
+    top: -30px;
+}

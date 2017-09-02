@@ -27,6 +27,14 @@
   </nav>
   <ul class="post-actions post-action-share">
     {{ if (not (eq .Params.showSocial false)) }}
+
+      <li class="post-action hide-xs">
+        <div class="fb-share-button"
+          data-href="{{ .Permalink }}"
+          data-layout="button_count">
+        </div>
+      </li>
+
       <li class="post-action hide-lg hide-md hide-sm">
         <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
           <i class="fa fa-share-alt"></i>
@@ -38,16 +46,11 @@
         </a>
       </li>
       <li class="post-action hide-xs">
-        <div class="fb-share-button"
-          data-href="{{ .Permalink }}"
-          data-layout="button_count">
-        </div>
-      </li>
-      <li class="post-action hide-xs">
         <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text={{ .Permalink }}">
           <i class="fa fa-twitter"></i>
         </a>
       </li>
+
     {{ end }}
     {{ if and (not (eq .Params.comments false)) .Site.DisqusShortname }}
       <li class="post-action">
