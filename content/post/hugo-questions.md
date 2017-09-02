@@ -57,3 +57,34 @@ Here's my solution for deploying my Hugo generated site to Dreamhost.
 
 
 If the above is too complicated, you can always just copy the `public/` folder to Dreamhost using FTP.
+
+## How do I configure the way URL's look?
+
+When I first loaded my blog, the URL's looked like this: `robinforest.net/2016/08/my-post-name`.  I wanted to configure it so that it would be `robinforest.net/post/my-post-name`.  I like to have clean URLs.
+
+The feature exists, and it's called [permalinks](https://gohugo.io/content-management/urls/#permalinks).  There is a configuration you can set and Hugo takes care of it all.  Just be careful not to change it too often, as your hyperlinks will break.
+
+## How can I make a standalone page?
+
+By standalone page, I mean a non blog post page.  For example, you want to make a special page that is just your biography and have the URL be `robinforest.net/about`.
+
+I figured out that standalone pages basically live in the top level of the `content/` folder.  If you create a file like `content/about.md`, it will create a page at `yourwebsite.com/about`.
+
+## How to run custom Javascript programs in a post
+
+This is something I could not find a good answer to when I was researching Hugo.  What if I have a blog post, and I want to show people a sample program I built. How could I do that?
+
+Turns out this is fairly easy, and you can see some live examples of embedded Javascript programs on [my projects page](/categories/projects).
+
+First you need to realize that Markdown syntax supports raw HTML.  So it is perfectly fine to add this to your markdown file:
+
+```
+## My blog post
+
+<div id='app'></div>
+<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script src='js/app/main.js'></script>
+
+```
+
+The code will execute when you load the blog post.  This works very well and I haven't had any issues with it.
