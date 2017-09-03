@@ -1,13 +1,16 @@
 ---
-title: "Cellular Automata"
+title: "Cellular Automata Simulator"
 date: 2017-08-29T23:01:54-04:00
 categories:
 - projects
+tags:
+- javascript
 thumbnailImage: /projects/cellular/cellular-project.png
+slug: cellular-automata
 ---
 
-Let me show you a cool project I wrote using Processing.js.
-If you love Conway's Game of Life, this will definitely interest you!
+I wrote a cellular automation simulator using Processing.js.  If you like Conway's Game of Life,
+Brian's Brain or others, this should interest you!
 
 <!--more-->
 
@@ -23,8 +26,10 @@ If you love Conway's Game of Life, this will definitely interest you!
         <select name='rule_selection' id='rule_selection'>
             <option value='345/2/4'>Star Wars</option>
             <option value='/2/3'>Brian's Brain</option>
+            <option value='6/246/3'>Brain 6</option>
             <option value='23/3/2'>Conway's Game of Life</option>
             <option value='3467/2678/6'>Rake</option>
+            <option value='345/24/25'>Bombers</option>
             <option value='45678/25678/4'>SediMental</option>
         </select>
         <input type='text' class="input--large" placeholder='Enter rule(i.e."345/2/4")...' id='txt_rule' value='345/2/4'>
@@ -47,6 +52,8 @@ For instance, the well known automaton, Conway's Game of Life, has the following
 * If a cell is ON, and 2 or 3 of its neighbors are ON, it continues to survive. Otherwise, it dies in the next generation.
 
 To see this in action, enter the rule 23/3/2 in the rule box.
+
+
 I created this program using Processing.js. This is a powerful JavaScript visualization engine that uses canvas in HTML5.
 
 ## How to Use
@@ -55,6 +62,7 @@ I created this program using Processing.js. This is a powerful JavaScript visual
 * Clear World sets all cells to zero state. Randomize randomly adds pixels to about 50% of the world.
 * Drag your mouse over the canvas to add more pixels. Left click to add pixels, right click to erase.
 * To change the simulation rules, enter rule in the input box and press enter. Rule must in S/B/G notation.
+* I have some preset rules in the dropdown: **Brian's Brain**, **Conway's Game of Life**, and my favorite, **Star Wars**.
 
 #### Rules Notation
 
