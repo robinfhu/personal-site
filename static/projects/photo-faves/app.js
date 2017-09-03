@@ -8,6 +8,9 @@
     function PhotoManager(galleryEl) {
         this.$el = galleryEl;
 
+        //Hash to keep a list of image descriptions, keyed off the image ID.
+        this.descriptions = {};
+
         //URL to fetch photostream
         this.apiURL = function(page) {
             page = page || 1;
@@ -17,7 +20,6 @@
             "per_page=500&page=" + page +
             "&user_id=58092940@N03&nojsoncallback=1" +
             "&extras=date_taken,description,tags";
-
         };
     }
 
@@ -70,7 +72,7 @@
 
         photos.forEach(function(photo) {
             var imageURL = getFlickrImage(photo);
-            var imageLargeURL = getFlickrImage(photo, 'b')
+            var imageLargeURL = getFlickrImage(photo, 'b');
             var imgCell = $(
                 "<a class='image-cell' rel='gallery1' href='"
                 + imageLargeURL + "' title='" + photo.title +
@@ -78,6 +80,9 @@
                 "<img src='" + imageURL + "' />" +
                 "</a>");
             _this.$el.append(imgCell);
+
+            //Cache the descriptions.
+            _this.descriptions[photo.id] = photo.description._content;
         });
 
         this.$el.find('a.image-cell').fancybox({
@@ -88,8 +93,9 @@
                 var dateTaken = new Date(this.element.data('taken'));
                 dateTaken = dateTaken.toDateString();
                 this.title =
-                    "<a target='_blank' href='" + flickrURL + "'>"
-                    + this.title + "</a> <em>" + dateTaken + "</em>";
+                    "<a target='_blank' class='title' href='" + flickrURL + "'>"
+                    + this.title + "</a> <em class='date' style='margin-left:20px;'>" + dateTaken + "</em>" +
+                    "<div class='description'>" + _this.descriptions[imageId] + "</div>";
             },
             helpers: {
                 title: {
