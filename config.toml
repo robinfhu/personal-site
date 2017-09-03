@@ -1,6 +1,6 @@
 baseURL = "http://robinforest.net/"
 languageCode = "en-us"
-title = "Robin Hu"
+title = "Programming and Photography"
 
 # Tranquilpeak
 # Version : 0.3.1-BETA
@@ -119,7 +119,7 @@ canonifyurls = true
   # dateFormat = "2 January 2006"
 
   # Global keywords configuration. Following keywords will be add to every pages
-  # keywords = ["development", "next-gen"]
+  keywords = ["programming", "photography", "juggling"]
 
   # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
   clearReading = true

@@ -123,4 +123,8 @@ I have performed my diabolo routine at:
 
 ### Photography
 
-I learned how to use a DSLR a few years back, and have since fallen in love with photography.  I like hiking and photographing the scenery.  Check out my albums on Instagram and Flickr!
+I learned how to use a DSLR a few years back, and have since fallen in love with photography.  I like hiking and photographing the scenery.  Check out my photos:
+
+* [Favorite photographs album](/photo-faves/)
+* [Flickr](https://www.flickr.com/photos/robinfhu)
+* [Instagram](https://www.instagram.com/robinfhu/)
