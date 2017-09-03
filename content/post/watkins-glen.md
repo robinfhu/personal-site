@@ -38,7 +38,7 @@ The parking fee is $8, which is standard for all New York state parks. The parki
 
 ## Hiking
 
-We picked the Gorge Trail to being our hike.  It was obvious that this was going to be a beautiful trail due to how many people were on it.  Right at the start, you cross a short suspension bridge and you get an amazing view of the creek below.  The Gorge Trail is relatively easy and gives you the best views of the numerous waterfalls.  The trail takes you very close to the waterfalls, and there are even wet parts where the waterfalls are over your head!
+We picked the Gorge Trail to begin our hike.  It was obvious that this was going to be a beautiful trail due to how many people were on it.  Right at the start, you cross a short suspension bridge and you get an amazing view of the creek below.  The Gorge Trail is relatively easy and gives you the best views of the numerous waterfalls.  The trail takes you very close to the waterfalls, and there are even wet parts where the waterfalls are over your head!
 
 At a point near the end, the trail gets very close to the creek, and people step into the water.  Hand made rock sculptures dot the water landscape.
 
