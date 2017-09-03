@@ -4,7 +4,8 @@ date: 2016-12-16
 categories:
 - photography
 tags:
-- redrockcanyon
+- nature
+- hiking
 coverImage: https://c1.staticflickr.com/1/289/31476029910_3c641b7335_b.jpg
 gallery:
 - https://c1.staticflickr.com/1/730/31039084003_ec22146441_b.jpg| Double Rainbow
