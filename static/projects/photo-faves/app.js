@@ -14,7 +14,9 @@
             return "https://api.flickr.com/services/rest/?" +
             "method=flickr.people.getPublicPhotos&" +
             "api_key=e10268a044bb52df0e4da75eab13a1bd&format=json&" +
-            "per_page=500&page=" + page + "&user_id=58092940@N03&nojsoncallback=1";
+            "per_page=500&page=" + page +
+            "&user_id=58092940@N03&nojsoncallback=1" +
+            "&extras=date_taken,description,tags";
 
         };
     }
@@ -71,7 +73,8 @@
             var imageLargeURL = getFlickrImage(photo, 'b')
             var imgCell = $(
                 "<a class='image-cell' rel='gallery1' href='"
-                + imageLargeURL + "' title='" + photo.title + "' data-id='" + photo.id + "' >" +
+                + imageLargeURL + "' title='" + photo.title +
+                "' data-id='" + photo.id + "' data-taken='" + photo.datetaken + "'>" +
                 "<img src='" + imageURL + "' />" +
                 "</a>");
             _this.$el.append(imgCell);
@@ -81,7 +84,12 @@
             afterLoad: function() {
                 var imageId = this.element.data('id');
                 var flickrURL = "https://www.flickr.com/photos/robinfhu/" + imageId;
-                this.title = "<a target='_blank' href='" + flickrURL + "'>" + this.title + "</a>";
+
+                var dateTaken = new Date(this.element.data('taken'));
+                dateTaken = dateTaken.toDateString();
+                this.title =
+                    "<a target='_blank' href='" + flickrURL + "'>"
+                    + this.title + "</a> <em>" + dateTaken + "</em>";
             },
             helpers: {
                 title: {
