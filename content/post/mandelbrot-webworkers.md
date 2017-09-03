@@ -50,4 +50,7 @@ I am impressed, and will try to find more usages for web workers in future proje
 
 Using the **Hugo** static site generator made development a breeze.  The hot reloading feature allowed me to iterate quickly.
 
+## Conclusion
+
+A few days later, I installed Fractal XTreme, and it amazed me. Read my review [here](/post/fractal-xtreme-review/).
 

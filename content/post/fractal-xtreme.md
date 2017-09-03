@@ -1,5 +1,5 @@
 ---
-title: "I purchased Fractal Xtreme. I am in awe."
+title: "I purchased Fractal Xtreme, and I am in awe."
 date: 2017-09-02T18:50:23-04:00
 categories:
 - programming
@@ -48,6 +48,8 @@ What the programmers of Fractal XTreme have accomplished is extraordinary, beaut
 You pick a spot in the Mandelbrot Set and start zooming. And you zoom. And zoom some more.  Then you pick another small corner, and pretty soon you've hit the mathematical limits of the universe.  You're looking at a visualization that is smaller than anything our minds can conceive.
 
 It's mathematical beauty in its purest form, derived from an algebraic formula that is elegant in simplicity.  They call it the God's fingerprint.
+
+I'm blessed to live in an age where computing power is cheap enough that I can explore this wonder at home.  There are still practical limitations, and my CPU can only take so much before the program slows down.
 
 See my gallery below for some cool zooms.
 
