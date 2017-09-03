@@ -9,25 +9,52 @@
         this.$el = galleryEl;
 
         //URL to fetch photostream
-        this.apiURL = "https://api.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=e10268a044bb52df0e4da75eab13a1bd&format=json&per_page=500&page=1&user_id=58092940@N03&nojsoncallback=1";
+        this.apiURL = function(page) {
+            page = page || 1;
+            return "https://api.flickr.com/services/rest/?" +
+            "method=flickr.people.getPublicPhotos&" +
+            "api_key=e10268a044bb52df0e4da75eab13a1bd&format=json&" +
+            "per_page=500&page=" + page + "&user_id=58092940@N03&nojsoncallback=1";
 
+        };
     }
 
     PhotoManager.prototype.refresh = function() {
         var _this = this;
-        $.ajax(this.apiURL, {
-            success: function(result) {
-                _this.renderGallery(result.photos.photo);
-            },
-            error: function() {
-                console.warn("Error fetching images.");
-            }
+        //When more photos are added, add a new page here
+        var totalPages = [1,2,3,4];
+
+        this.$el.empty();
+        var requests = totalPages.map(function(_, page) {
+            page = page + 1;
+            return $.ajax(_this.apiURL(page), {
+                success: function(result) {
+                },
+                error: function() {
+                    console.warn("Error fetching images for page: " + page);
+                }
+            });
+
+        });
+
+        $.when.apply(null, requests).then(function() {
+            var responses = Array.prototype.slice.call(arguments);
+            responses = responses.map(function(item) {
+                return item[0].photos.photo;
+            });
+
+            var numberOfPhotos = 0;
+            responses.forEach(function(photos) {
+                var result = _this.renderGallery(photos);
+                numberOfPhotos += result.photoCount;
+            });
+
+            $('#total-images').text(numberOfPhotos);
         });
     };
 
     PhotoManager.prototype.renderGallery = function(photos) {
         var _this = this;
-        this.$el.empty();
 
         photos = photos.filter(function(photo) {
             return photo.title.match(/\[fave\]/i);
@@ -62,6 +89,10 @@
                 }
             }
         });
+
+        return {
+            photoCount: photos.length
+        };
     };
 
     var manager = new PhotoManager($('#photo-gallery'));
