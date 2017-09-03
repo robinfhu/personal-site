@@ -1,3 +1,8 @@
+.light-font {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
 .postShorten-thumbnailimg img {
     max-height: 400px;
 }
@@ -27,6 +32,12 @@
     font-weight: 100;
     border-bottom: solid 1px #ccc;
 }
+
+.category-subtitle {
+    font-size: 0.65em;
+    margin-left: 40px;
+}
+
 .experience-card .dates {
     font-size: 0.55em;
     margin-left: 10px;
@@ -54,4 +65,13 @@
     border-radius: 5px;
     min-width: 50px;
     text-align: center;
+}
+
+/* Image gallery */
+#photo-gallery .image-cell img {
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    margin-right: 10px;
+    object-fit: cover;
 }

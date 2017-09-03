@@ -12,6 +12,10 @@
                {{ with .Params.coverCaption }}hasCoverCaption{{ end }}">
           <h3 class="category-title">
             {{ .Title }}
+
+            {{ if eq .Title "Photography" }}
+              <a class="category-subtitle" href="/photo-faves">Favorites</a>
+            {{end}}
           </h3>
         {{ if or (not (isset .Site.Params "categoryPagination")) (.Site.Params.categoryPagination) }}
           <section class="postShorten-group main-content-wrap">
