@@ -20,6 +20,13 @@
     margin: 15px;
 }
 
+.category-title {
+    margin: 0;
+    margin-left: 162px;
+    font-size: 3em;
+    font-weight: 100;
+    border-bottom: solid 1px #ccc;
+}
 .experience-card .dates {
     font-size: 0.55em;
     margin-left: 10px;

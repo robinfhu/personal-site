@@ -10,6 +10,9 @@
         class="{{ with .Params.coverimage }}hasCover{{ end }}
                {{ if eq .Params.covermeta "out" }}hasCoverMetaOut{{ else }}hasCoverMetaIn{{ end }}
                {{ with .Params.coverCaption }}hasCoverCaption{{ end }}">
+          <h3 class="category-title">
+            {{ .Title }}
+          </h3>
         {{ if or (not (isset .Site.Params "categoryPagination")) (.Site.Params.categoryPagination) }}
           <section class="postShorten-group main-content-wrap">
             {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
