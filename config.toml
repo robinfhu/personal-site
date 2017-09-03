@@ -18,7 +18,7 @@ title = "Programming and Photography"
 
 defaultContentLanguage = "en-us"
 theme = "tranquilpeak"
-disqusShortname = "hugo-tranquilpeak-theme"
+disqusShortname = "robinhu"
 googleAnalytics = "UA-105698075-1"
 paginate = 7
 canonifyurls = true
@@ -119,7 +119,7 @@ canonifyurls = true
   # dateFormat = "2 January 2006"
 
   # Global keywords configuration. Following keywords will be add to every pages
-  keywords = ["programming", "photography", "juggling"]
+  keywords = ["programming", "photography", "juggling", "software", "blog"]
 
   # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
   clearReading = true
@@ -128,7 +128,7 @@ canonifyurls = true
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "Robin Hu: Computer Programmer | Juggler"
+  description = "Robin Hu: Computer Programmer | Photographer | Juggler"
 
   # Customization
   # Define the behavior of the sidebar

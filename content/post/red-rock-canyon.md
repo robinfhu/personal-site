@@ -1,5 +1,5 @@
 ---
-title: "Red Rock Canyon"
+title: "Red Rock Canyon, Nevada"
 date: 2016-12-16
 categories:
 - photography
@@ -22,7 +22,7 @@ While visiting Las Vegas for a juggling festival, I took time to visit Red Rock 
 
 ## Background
 
-I already made plans to be at the Juggle Vegas festival in December of 2016, and wanted to add some sight seeing to my trip.  The Grand Canyon was too far out of the way, so I decided to visit a more nearby park.  Google Maps showed me **Red Rock Canyon**, just half an hour away from the Vegas Strip. I was sold!  I booked a tour with Pink Jeep Tours online for about $100.
+I already made plans to be at the Juggle Vegas festival in December of 2016, and wanted to add some sight seeing to my trip.  The Grand Canyon was too far out of the way, so I decided to visit a more nearby park.  Google Maps showed me **Red Rock Canyon**, just half an hour away from the Las Vegas Strip. I was sold!  I booked a tour with Pink Jeep Tours online for about $100.
 
 ## The Tour
 

@@ -1,5 +1,5 @@
 ---
-title: "Mandelbrot Set Explorer: With Web Workers"
+title: "Mandelbrot Set Explorer With Web Workers"
 date: 2017-08-30T19:33:06-04:00
 categories:
 - projects

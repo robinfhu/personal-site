@@ -1,5 +1,5 @@
 ---
-title: "Building a simple Flickr app"
+title: "Building a Simple Flickr App"
 date: 2017-09-03T13:06:40-04:00
 categories:
 - programming

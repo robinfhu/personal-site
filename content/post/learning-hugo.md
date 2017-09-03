@@ -1,5 +1,5 @@
 ---
-title: "Learning Hugo: Static Site Generator"
+title: "Hugo: First Impressions of a Static Site Generator"
 date: 2017-08-29T22:36:47-04:00
 categories:
 - programming
