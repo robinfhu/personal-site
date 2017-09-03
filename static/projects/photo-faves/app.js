@@ -92,6 +92,9 @@
 
                 var dateTaken = new Date(this.element.data('taken'));
                 dateTaken = dateTaken.toDateString();
+                if (dateTaken === "Invalid Date") {
+                    dateTaken = this.element.data('taken');
+                }
                 this.title =
                     "<a target='_blank' class='title' href='" + flickrURL + "'>"
                     + this.title + "</a> <em class='date' style='margin-left:20px;'>" + dateTaken + "</em>" +
