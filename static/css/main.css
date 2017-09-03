@@ -26,8 +26,8 @@
 }
 
 .category-title {
-    margin: 0;
-    margin-left: 162px;
+    margin: 0 auto;
+    max-width: 750px;
     font-size: 3em;
     font-weight: 100;
     border-bottom: solid 1px #ccc;
