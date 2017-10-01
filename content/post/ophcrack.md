@@ -10,6 +10,11 @@ slug: ophcrack-review
 #thumbnailImage: //example.com/image.jpg
 ---
 
+I found my old laptop from college and tried logging in.  Couldn't remember my password!  Find out how I managed to figure it out...
+<!--more-->
+
+## Background
+
 While I was at my parents home this weekend, I came across my old laptops from college. I had a Compaq Presario, and an Acer Aspire One netbook.  The Compaq was the very first laptop I ever owned, and I loved that computer!  I continued using it even after I moved to NYC.
 
 The first problem I had when trying to turn the laptop on, was that I was missing a power cable!  Luckily my dad has this Targus Brand universal AC Adapter, which was able to power on the Compaq.
@@ -41,4 +46,3 @@ I learned that cracking a Windows XP password is dead easy.  This gives me a bet
 I also learned that you can make a password recovery disk for Windows.  This would have prevented all the hassle of having to crack the password.
 
 Anyway, it's one more tool I have now!
-<!--more-->
